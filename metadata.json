@@ -1,10 +1,10 @@
 {
-	"name": "cristifalcas-journald",
+	"name": "ClashTheBunny-journald",
 	"author": "Cristian Falcas",
 	"version": "0.6.1",
 	"source": "git@github.com:cristifalcas/puppet-journald.git",
-	"project_page": "https://github.com/cristifalcas/puppet-journald",
-	"issues_url": "https://github.com/cristifalcas/puppet-journald/issues",
+	"project_page": "https://github.com/ClashTheBunny/puppet-journald",
+	"issues_url": "https://github.com/ClashTheBunny/puppet-journald/issues",
 	"dependencies": [{
 			"name": "puppetlabs/stdlib",
 			"version_requirement": ">= 4.0.0 < 7.0.0"
@@ -30,6 +30,25 @@
 		},{
 			"operatingsystem": "Fedora",
 			"operatingsystemrelease": [ "21"
+			]
+		},{
+			"operatingsystem": "Ubuntu",
+			"operatingsystemrelease": [ "15.04",
+                                                    "15.10",
+                                                    "16.04",
+                                                    "16.10",
+                                                    "17.04",
+                                                    "17.10",
+                                                    "18.04",
+                                                    "18.10",
+                                                    "19.04",
+                                                    "19.10"
+			]
+		},{
+			"operatingsystem": "Debian",
+			"operatingsystemrelease": [ "8",
+                                                    "9",
+                                                    "10"
 			]
 		}
 	],
